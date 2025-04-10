@@ -8,7 +8,7 @@ AWS_REGION = eu-west-1
 
 TF_VERSION = 1.11.3
 
-init: MAKE_URI = https://raw.githubusercontent.com/garyrutland/make
+init: MAKE_URI = https://raw.githubusercontent.com/applicreation/make
 init: MAKE_VERSION = v0
 init: MAKE_FILES = aws aws-lambda docker git terraform
 init:
