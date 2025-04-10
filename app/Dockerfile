@@ -3,9 +3,11 @@ ARG VERSION=3.13
 # build
 FROM python:${VERSION} AS build
 
+ARG DIR
+
 WORKDIR /app
 
-COPY ./app /app
+COPY ${DIR}/src /app
 
 RUN pip install --no-cache-dir -r ./requirements.txt
 

@@ -1,7 +1,7 @@
 ROOT_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 MAKE_DIR = $(ROOT_DIR)/.make
 
-export NAME = lambda-python
+export NAME = lambda-single-python
 
 AWS_PROFILE = default
 AWS_REGION = eu-west-1

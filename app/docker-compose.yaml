@@ -17,10 +17,14 @@ services:
   lambda:
     build:
       target: lambda
+      args:
+        - DIR=${DIR}
   dev:
     build:
       target: dev
+      args:
+        - DIR=${DIR}
     profiles:
       - dev
     volumes:
-      - ./app:/app
+      - ./${NAME}/app:/app
