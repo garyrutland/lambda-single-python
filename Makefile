@@ -6,7 +6,6 @@ export NAME = lambda-python
 AWS_PROFILE = default
 AWS_REGION = eu-west-1
 
-PYTHON_VERSION = 3.8
 TF_VERSION = 1.11.3
 
 init: MAKE_URI = https://raw.githubusercontent.com/garyrutland/make
